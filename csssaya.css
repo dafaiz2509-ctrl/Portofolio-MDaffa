@@ -1,4 +1,3 @@
-
 /* =========================
    RESET
 ========================= */
@@ -334,7 +333,7 @@ footer h3 span {
 
 
 /* =========================
-   SKILLS
+   y    
 ========================= */
 
 .skills-grid {
@@ -422,95 +421,59 @@ footer h3 span {
 
 
 /* =========================
-   CONTACT / GET IN TOUCH
+   CONTACT
 ========================= */
 
 .contact-section {
     text-align: center;
-    background: linear-gradient(
-        135deg,
-        #152c50,
-        #24558d,
-        #3478b9
-    );
+    background: linear-gradient(135deg, #152c50, #3478b9);
     color: white;
-
-    /* Memperbesar area contact */
-    padding: 75px 45px;
-    min-height: 420px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact-section .section-title {
-    margin-bottom: 25px;
 }
 
 .contact-section .section-title span {
     color: #65c4ff;
-    font-size: 14px;
-    letter-spacing: 4px;
 }
 
 .contact-section .section-title h2 {
     color: white;
-    font-size: 38px;
-    margin-top: 10px;
 }
 
 .contact-section > p {
     color: #dceaff;
-    font-size: 17px;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.9;
+    font-size: 14px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .contact-links {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .contact-links a {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     background: rgba(255,255,255,0.12);
     color: white;
     text-decoration: none;
-
-    /* Tombol lebih besar */
-    padding: 22px 45px;
-    min-width: 240px;
-    min-height: 85px;
-
-    font-size: 17px;
-    border-radius: 15px;
+    padding: 17px 30px;
+    border-radius: 12px;
     font-weight: 600;
-
-    border: 1px solid rgba(255,255,255,0.15);
-
     transition: 0.3s;
 }
 
 .contact-links a:hover {
     background: white;
     color: #24558d;
-    transform: translateY(-7px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
 }
 
 .contact-links span {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 400;
-    margin-top: 5px;
 }
 
 
@@ -539,7 +502,7 @@ footer p {
 
 
 /* =========================
-   RESPONSIVE TABLET
+   RESPONSIVE
 ========================= */
 
 @media (max-width: 768px) {
@@ -596,30 +559,7 @@ footer p {
         font-size: 24px;
     }
 
-    /* CONTACT TABLET */
-
-    .contact-section {
-        padding: 60px 30px;
-        min-height: 400px;
-    }
-
-    .contact-section .section-title h2 {
-        font-size: 33px;
-    }
-
-    .contact-section > p {
-        font-size: 15px;
-    }
-
-    .contact-links a {
-        min-width: 210px;
-    }
 }
-
-
-/* =========================
-   RESPONSIVE HP
-========================= */
 
 @media (max-width: 480px) {
 
@@ -646,38 +586,8 @@ footer p {
         padding: 10px;
     }
 
-    /* CONTACT HP */
-
-    .contact-section {
-        padding: 55px 20px;
-        min-height: 380px;
-    }
-
-    .contact-section .section-title span {
-        font-size: 11px;
-    }
-
-    .contact-section .section-title h2 {
-        font-size: 29px;
-    }
-
-    .contact-section > p {
-        font-size: 14px;
-        line-height: 1.8;
-    }
-
     .contact-links {
         flex-direction: column;
-        gap: 15px;
-        margin-top: 30px;
-    }
-
-    .contact-links a {
-        width: 100%;
-        min-width: unset;
-        min-height: 75px;
-        padding: 18px 20px;
-        font-size: 16px;
     }
 
 }
